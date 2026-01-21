@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação em Foco | O Abismo Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Educa<strong>Ação</strong></div>
+            <ul>
+                <li><a href="#dados">O Problema</a></li>
+                <li><a href="#agir">Como Ajudar</a></li>
+                <li><button id="theme-toggle" class="theme-btn">🌓</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>A educação no Brasil não pode ser um <span>privilégio digital.</span></h1>
+                <p>Milhões de alunos brasileiros ainda estão offline. O futuro do país depende de desconectar a desigualdade.</p>
+                <a href="#agir" class="btn-main">Quero fazer a diferença</a>
+            </div>
+        </section>
+
+        <section id="dados" class="stats-section">
+            <h2>O tamanho do desafio</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="counter-wrapper">
+                        <h3 class="counter" data-target="4.8">0</h3><span>Mi</span>
+                    </div>
+                    <p>De crianças e adolescentes vivem em lares sem acesso à internet no Brasil.</p>
+                </div>
+                <div class="card">
+                    <div class="counter-wrapper">
+                        <h3 class="counter" data-target="20">0</h3><span>%</span>
+                    </div>
+                    <p>Dos alunos de escolas públicas não possuem dispositivos para estudar em casa.</p>
+                </div>
+                <div class="card">
+                    <h3>Abismo</h3>
+                    <p>A falta de tecnologia amplifica a desigualdade no mercado de trabalho futuro.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="agir" class="cta-section">
+            <h2>Vamos mudar essa realidade?</h2>
+            <p>Apoie projetos que levam infraestrutura tecnológica para quem mais precisa.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit">Receber Guia de Apoio</button>
+            </form>
+            <div id="form-feedback"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto EducaAção - Transformando o Brasil através do acesso.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
